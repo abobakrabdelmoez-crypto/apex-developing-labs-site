@@ -1,0 +1,404 @@
+You are a senior product designer, brand art director, frontend engineer, and conversion strategist.
+
+Build a unique premium one-page Arabic RTL website for a B2B strategic transformation partner and business development consultant. The website must not look like an AI-generated template. It should feel inspired by the design quality of Apple, Anthropic, Google, and Samsung, but do not copy any of their layouts, branding, components, typography, or exact visual language.
+
+Project context:
+This is not an agency and not an automation vendor. This is a strategic transformation partner who works with B2B companies as an embedded growth architect — similar to a private equity operator, but instead of acquiring the company, he takes a performance-based fee or equity-like percentage tied to results. The scope of work covers the full business transformation stack: business vision restructuring, digital transformation strategy, branding and identity, marketing strategy and campaigns, sales systems and outreach, technology modernization, AI integration, and creative problem-solving. The consultation itself is the Trojan horse — it opens the door, but the real value is the full execution of services across every growth lever. The founder does not yet have case studies, so the main conversion offer is a strategic business review session before engaging.
+
+Main positioning:
+"30% من الشركات ستلتهم الـ 70% المتخلفين عن الركب. نحن نحوّل شركتك من فريسة إلى مفترس — بالرؤية والاستراتيجية والتنفيذ."
+
+Website goal:
+Generate qualified B2B leads by getting serious business owners to request a strategic business review — business owners who understand they need transformation, not just a tool.
+
+Primary CTA:
+"اطلب مراجعة استراتيجية لأعمالك"
+
+Language:
+Arabic only for the first version.
+Use RTL layout.
+Tone should be strategic, authoritative, premium, direct, and business-focused.
+The tone should feel like a senior partner speaking at a boardroom, not a vendor pitching services.
+Avoid slang-heavy copy.
+Avoid buzzwords.
+Avoid generic agency language like "حلول مبتكرة" or "نرتقي بأعمالك".
+
+Design inspiration:
+Take from Apple:
+- spacious hero
+- product-like visual object
+- calm premium material lighting
+- short strong copy
+
+Take from Anthropic:
+- intellectual calm
+- trust-first tone
+- editorial seriousness
+- sections that feel like strategic thinking
+
+Take from Google:
+- approachable clarity
+- soft modular surfaces
+- simple language
+- friendly but professional structure
+
+Take from Samsung:
+- modular ecosystem thinking
+- clear product/service families
+- polished consumer-grade presentation
+
+Do not use:
+- stock photos
+- people in offices
+- server racks
+- robot imagery
+- fake dashboards made of div rectangles
+- purple/blue AI glow
+- generic 3 equal feature cards
+- fake testimonials
+- fake numbers like 300% or 10x
+- emojis
+- heavy gradients
+- dark cyberpunk look
+- generic agency copy like "نرتقي بأعمالك" or "حلول مبتكرة"
+- em dashes
+- cluttered navigation
+- huge service lists
+- logo walls
+
+Visual language:
+Name the visual direction internally: "Quiet Operating System".
+Use abstract premium system visuals, not literal photos.
+Base palette:
+- Background: off-white, warm neutral, or very light stone, example #F4F4F1 or #F7F6F2
+- Text: charcoal, example #111413
+- Secondary text: muted graphite, example #5D625E
+- Accent: restrained emerald, example #13A36B or #0E9F6E
+- Metal/glass: graphite, smoked glass, translucent white
+
+Typography:
+Use a premium Arabic-supporting font.
+Preferred:
+- IBM Plex Sans Arabic
+- Noto Kufi Arabic
+- Tajawal only if styled very carefully
+For Latin micro labels or code-like details, use Geist Mono or IBM Plex Mono.
+Avoid Inter, Roboto, Arial as default design fonts.
+Arabic body text should be readable with line-height around 1.7.
+
+Image assets:
+Use the uploaded images as abstract brand assets.
+
+Asset A:
+Layered translucent glass and graphite object.
+Use as the hero visual.
+
+Asset B:
+Flow map where messy lines become a structured green path.
+Use in the "from chaos to system" or "lead flow" section.
+
+Asset C:
+Floating modular system blocks connected with emerald routing.
+Use for the "Transformation Architecture" section.
+
+Asset D:
+Wide chaos-to-clean emerald signal field.
+Use near the final CTA or the predator/prey transformation section.
+
+Do not use any sketchy flowchart image if provided. It looks too literal and less premium.
+
+Overall layout:
+One-page landing page.
+Desktop width max around 1280-1440px.
+Mobile-first responsive.
+No horizontal scroll.
+Use generous vertical space.
+Every section should have a different layout rhythm.
+Avoid repeating the same card grid over and over.
+
+Section structure:
+
+1. Navigation
+Minimal top nav.
+Left or right depending on RTL:
+- Brand placeholder: "Apex Transformation" unless a brand name is provided.
+- Links: "الواقع", "التحول", "كيف نعمل", "المراجعة الاستراتيجية"
+- CTA button: "اطلب مراجعة"
+
+Nav should be clean, single line on desktop, compact on mobile.
+Height max 72px.
+No huge navbar.
+
+2. Hero section
+Use asymmetric split layout.
+Arabic copy on one side, Asset A on the other.
+Hero should fit in first viewport.
+CTA visible without scrolling.
+
+Hero headline:
+"30% من الشركات ستلتهم الباقي. أين ستكون شركتك؟"
+
+Hero subheadline:
+"نعيد بناء رؤية شركتك، استراتيجيتها، وحضورها من الأساس — البراند، الماركتنج، السيلز، والتقنية — لتكون من الـ 30% التي تقود السوق، لا من الـ 70% التي تختفي."
+
+Primary CTA:
+"اطلب مراجعة استراتيجية لأعمالك"
+
+Secondary text link, optional:
+"كيف نحوّل الشركات؟"
+
+Do not add too many elements in the hero.
+No trust badges.
+No fake stats.
+No logo wall.
+
+3. The Reality section (formerly Strategic belief)
+This is the Predator/Prey philosophy section — the most important strategic message.
+Make it feel like Anthropic-style serious editorial. Heavy strategic weight.
+Use a very subtle cropped background from Asset D.
+
+Headline:
+"السوق لا ينتظر أحدًا. 70% من الشركات ستختفي لصالح المنافسين الذين سبقوها."
+
+Body:
+"هذه ليست مبالغة — الدراسات تؤكد أن 30% من الشركات في أي قطاع ستستحوذ على حصة الـ 70% المتبقية. السبب بسيط: التحول التكنولوجي والاستراتيجي لم يعد خيارًا. الشركات التي لا تعيد بناء رؤيتها، حضورها الرقمي، وطريقة وصولها للعملاء — ستفقد حصتها تدريجيًا لصالح من فعل ذلك أولًا."
+
+Add 3 strategic statements:
+- "إما أن تكون المفترس الذي يقود التحول في قطاعه."
+- "أو الفريسة التي تفقد عملاءها دون أن تفهم لماذا."
+- "لا يوجد خيار ثالث. السوق يُعاد تقسيمه الآن."
+
+4. Where growth dies section (expanded pain points)
+Use Asset D or Asset B.
+Layout should show left side as messy and right side as clean.
+Do not use literal before/after cards if it feels generic.
+
+Headline:
+"أين تنزف شركتك دون أن تعرف؟"
+
+Content points (expanded beyond just sales):
+- "لا توجد رؤية واضحة للسنتين القادمتين — القرارات ارتجالية."
+- "البراند لا يعكس القيمة الحقيقية — العميل لا يفهم لماذا يختارك."
+- "لا توجد استراتيجية ماركتنج — الإنفاق عشوائي والنتائج غير قابلة للقياس."
+- "المبيعات تعتمد على الذاكرة والعلاقات الشخصية — لا يوجد نظام."
+- "المنافسون يتقدمون بالتقنية وأنت لا تزال تعمل بالطرق القديمة."
+- "لا يوجد حضور رقمي حقيقي — العملاء المحتملون لا يجدونك."
+
+5. Transformation Architecture section (formerly Business OS)
+Use Asset C as the main visual.
+This section explains that this is not about selling tools — it is a complete business transformation across every growth lever.
+
+Headline:
+"لا نبيع أدوات. نعيد بناء شركتك من كل زاوية."
+
+Subcopy:
+"نعمل كشريك استراتيجي مُستثمَر في نجاحك — نعيد تصميم الرؤية، نبني البراند، نضع استراتيجية النمو، نبني الأنظمة، وننفذ. ليس استشارة نظرية — بل تحول حقيقي."
+
+Transformation pillars (not just tech modules):
+- "إعادة بناء الرؤية والاستراتيجية" — نراجع أساسات الشركة ونضع خارطة طريق واضحة
+- "بناء هوية وبراند قوي" — من الاسم للهوية البصرية للرسائل التسويقية
+- "استراتيجية ماركتنج وكامبينز" — خطة تسويقية متكاملة مع تنفيذ
+- "أنظمة مبيعات وأوت ريتش" — CRM، تأهيل عملاء، متابعة أوتوماتيكية
+- "تحول تقني وأتمتة" — البنية التحتية الرقمية، الأدوات، والذكاء الاصطناعي
+- "حلول إبداعية وأفكار غير تقليدية" — ما لا تجده عند غيرنا
+
+Do not display these as 6 identical cards.
+Use a modular horizontal rail, staggered tiles, or ecosystem layout inspired by Samsung/Google product families.
+Each pillar should have a short description underneath it.
+
+6. How it works section
+Keep it simple and premium.
+Do not use "Step 1, Step 2" labels.
+Use verb-based labels.
+
+Headline:
+"طريقة العمل تبدأ بالفهم، لا بالبيع."
+
+Process:
+- "نراجع شركتك بالكامل — الرؤية، البراند، الماركتنج، السيلز، والتقنية."
+- "نحدد أين تنزف الفرص وأين يكمن أكبر إمكانات النمو."
+- "نضع خارطة تحول شاملة مخصصة لحجم شركتك وقطاعك."
+- "ننفذ التحول معك — لسنا استشاريين نظريين، نحن شركاء تنفيذ."
+- "نقيس، نطوّر، ونتوسع بناءً على النتائج الفعلية."
+
+Layout:
+Use a vertical sequence with subtle connecting line.
+No generic timeline with circles everywhere.
+Use very restrained emerald only for active path.
+
+7. What we deliver section (formerly Offer section)
+Offer name:
+"Strategic Transformation Partnership"
+
+Arabic description:
+"مراجعة استراتيجية شاملة لأعمالك، ثم خارطة تحول واضحة وتنفيذ حقيقي — للشركات الجاهزة لتكون من الـ 30% التي تقود سوقها."
+
+What is included:
+- "مراجعة شاملة: الرؤية، البراند، الماركتنج، المبيعات، والتقنية"
+- "تحديد نقاط النزيف الاستراتيجي وفرص النمو غير المستغلة"
+- "خارطة تحول مخصصة بمراحل واضحة وأولويات"
+- "تنفيذ المرحلة الأولى من التحول"
+- "متابعة وقياس وتطوير مستمر"
+
+Do not show price on the page.
+Add qualification line:
+"مناسب للشركات التي تملك منتجًا أو خدمة حقيقية وتحتاج إلى شريك يعيد بناء طريقة نموها بالكامل."
+
+8. Qualification form section
+This is the main conversion point.
+Use a multi-step style if possible.
+If implementing static only, make the form visually grouped and not intimidating.
+
+Headline:
+"اطلب مراجعة استراتيجية لأعمالك"
+
+Subcopy:
+"أخبرنا عن شركتك وتحدياتك. سنراجع وضعك ونعود إليك بتقييم أولي — قبل أي عرض بيع."
+
+Fields:
+- اسم الشركة
+- القطاع
+- الدولة / المدينة
+- ما هي رؤيتك لشركتك خلال السنتين القادمتين؟
+- ما أكبر تحدٍ يمنع شركتك من النمو حاليًا؟
+- هل لديكم حضور رقمي حالي؟ (موقع، سوشيال ميديا، إعلانات)
+- هل لديكم فريق مبيعات أو تسويق؟
+- ما الذي جربتموه سابقًا ولم ينجح؟
+- هل هناك استعداد للاستثمار في التحول خلال هذا الربع؟
+- رقم واتساب
+- البريد الإلكتروني, optional
+
+Submit button:
+"أرسل طلب المراجعة الاستراتيجية"
+
+Validation:
+Visible labels, not placeholder-only.
+Clear error messages near fields.
+Success state:
+"تم استلام طلبك. سنراجع التفاصيل ونتواصل معك لتحديد موعد المراجعة الاستراتيجية."
+
+9. FAQ section
+Use clean accordion.
+No boxed heavy cards.
+
+Questions:
+"ما الفرق بينكم وبين وكالات التسويق أو شركات الأتمتة؟"
+Answer:
+"نحن لا نبيع خدمة واحدة. نعمل كشريك استراتيجي يعيد بناء شركتك بالكامل — من الرؤية والبراند إلى الماركتنج والسيلز والتقنية. وكالة التسويق تنفذ مهمة. نحن نضع الاستراتيجية وننفذها."
+
+"ما المقصود بأن 30% ستلتهم 70%؟"
+Answer:
+"الدراسات تُظهر أن في كل قطاع، الشركات التي تتبنى التحول الرقمي والاستراتيجي مبكرًا تستحوذ على حصص الشركات المتأخرة. هذا يحدث الآن — السؤال: في أي جانب ستكون شركتك؟"
+
+"هل تعملون مع شركات في بداياتها؟"
+Answer:
+"نعمل مع شركات لديها منتج أو خدمة قائمة وتحتاج إلى إعادة بناء طريقة نموها. إذا كانت شركتك في مرحلة الفكرة فقط، قد لا يكون الوقت مناسبًا بعد."
+
+"ما شكل التعاون — هل هو مشروع أم شراكة مستمرة؟"
+Answer:
+"نبدأ بمراجعة استراتيجية، ثم نتفق على خارطة تحول بمراحل. التعاون مبني على النتائج — نستثمر في نجاحك لأن مصلحتنا مرتبطة بنموك."
+
+"هل أحتاج إلى فريق تقني أو تسويقي موجود؟"
+Answer:
+"لا. نبني ما تحتاجه — سواء كان فريقك صغيرًا أو غير موجود. جزء من التحول هو بناء القدرات الصحيحة."
+
+"كم يستغرق التحول؟"
+Answer:
+"المراجعة الاستراتيجية الأولى خلال أيام. خارطة التحول خلال الأسبوع الأول. التنفيذ الفعلي يعتمد على حجم الشركة وعمق التحول المطلوب — لكن النتائج الأولى تظهر سريعًا."
+
+10. Final CTA
+Use Asset D as a subtle wide background.
+Keep text centered or slightly offset.
+No clutter.
+
+Headline:
+"السوق يُعاد تقسيمه الآن. من أي جانب ستكون؟"
+
+Subcopy:
+"المراجعة الاستراتيجية تكشف لك أين تنزف شركتك، وما التحول الذي تحتاجه لتكون من الشركات التي تقود — لا التي تتبع."
+
+CTA:
+"اطلب مراجعة استراتيجية لأعمالك"
+
+11. Footer
+Minimal.
+Brand placeholder.
+Short line:
+"شريك التحول الاستراتيجي للشركات الطموحة."
+Links:
+- المراجعة الاستراتيجية
+- كيف نعمل
+- تواصل
+
+UI and UX rules:
+- RTL must be correct.
+- Buttons at least 44px high.
+- Body text minimum 16px on mobile.
+- Strong contrast.
+- Inputs must have visible labels.
+- Mobile layout must be excellent at 375px.
+- No content overlap.
+- No horizontal scroll.
+- Images must have reserved aspect ratios to avoid layout shift.
+- Use responsive image optimization.
+- Respect prefers-reduced-motion.
+- Do not animate width, height, top, or left. Animate only transform and opacity.
+- Use subtle scroll reveal with IntersectionObserver or Motion.
+- Optional hero parallax must be very small and disabled on reduced motion.
+- CTA hover may move a small inner arrow/icon slightly, but avoid gimmicks.
+
+Motion:
+Use restrained motion:
+- Hero visual fades in and moves up slightly.
+- Sections reveal on scroll with opacity and translateY.
+- A thin emerald path can animate through the transformation pillars section.
+- Form fields can have refined focus transitions.
+No excessive animation.
+No scroll hijacking unless perfectly implemented.
+
+Implementation preference:
+Use Next.js or React with Tailwind CSS.
+Use CSS variables for theme tokens.
+Use component structure:
+- Header
+- Hero
+- RealitySection
+- PainPointsSection
+- TransformationArchitectureSection
+- ProcessSection
+- OfferSection
+- StrategicReviewForm
+- FAQ
+- FinalCTA
+- Footer
+
+SEO:
+Page title:
+"Apex Transformation | شريك التحول الاستراتيجي للشركات"
+
+Meta description:
+"نعيد بناء شركتك بالكامل — الرؤية، البراند، الماركتنج، السيلز، والتقنية — لتكون من الـ 30% التي تقود سوقها."
+
+Open Graph:
+Use Asset A or a cropped version of Asset C.
+
+Final quality bar:
+The website should feel like a global strategic consultancy — McKinsey meets Apple. Not a local marketing agency or an automation vendor.
+It should feel calm, expensive, authoritative, and strategic.
+The visitor should understand in 5 seconds:
+- that this is about total business transformation, not just one service
+- that there is strategic urgency (30/70 reality)
+- what action to take
+- that this is a senior strategic partner, not a freelancer or cheap service provider
+
+Before finishing, audit the result:
+- Does it look non-template?
+- Is there only one main CTA?
+- Are the visuals abstract and premium?
+- Is the Arabic text readable and natural?
+- Does the site avoid AI clichés?
+- Does mobile look intentional?
+- Does the form qualify serious businesses, not tire-kickers?
+- Does the messaging position this as a strategic transformation partner, not an agency?
+- Is the 30/70 predator/prey philosophy woven throughout?
+- Does the tone feel like a boardroom, not a sales pitch?
