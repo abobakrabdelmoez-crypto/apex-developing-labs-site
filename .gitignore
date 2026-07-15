@@ -9,3 +9,6 @@ admin.html
 src/admin.js
 asset-a-hero-system-object.png
 logo.png
+
+.vercel
+.env*

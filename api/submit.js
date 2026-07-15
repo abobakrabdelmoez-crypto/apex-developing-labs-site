@@ -4,6 +4,7 @@ export default async function handler(req, res) {
   // ════════════════════════════════════════
   const allowedOrigins = [
     'https://project-kappa-ten-65.vercel.app',
+    'https://apexbusinessdevelopmentlabs.vercel.app',
     'http://localhost:3000',
     'http://127.0.0.1:5500'
   ];
