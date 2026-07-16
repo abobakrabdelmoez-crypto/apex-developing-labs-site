@@ -956,7 +956,7 @@ input, textarea, select {
 /* Bento Grid */
 .bento {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   gap: var(--space-element);
 }
@@ -978,15 +978,6 @@ input, textarea, select {
   border-color: var(--color-navy-300);
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
-}
-
-/* Make first and last card span 2 columns for asymmetry */
-.bento__card:nth-child(1) {
-  grid-column: span 2;
-}
-
-.bento__card:nth-child(6) {
-  grid-column: span 2;
 }
 
 .bento__card-icon {
@@ -1016,10 +1007,6 @@ input, textarea, select {
 @media (max-width: 768px) {
   .bento {
     grid-template-columns: 1fr;
-  }
-  .bento__card:nth-child(1),
-  .bento__card:nth-child(6) {
-    grid-column: span 1;
   }
 }
 
