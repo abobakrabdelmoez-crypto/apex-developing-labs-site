@@ -200,6 +200,37 @@ document.addEventListener('DOMContentLoaded', () => {
   const strategicForm = document.getElementById('strategicForm');
 
   if (strategicForm) {
+    // 1. Load saved draft if exists
+    const savedData = localStorage.getItem('apex_form_draft');
+    if (savedData) {
+      try {
+        const data = JSON.parse(savedData);
+        Object.keys(data).forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.value = data[id];
+        });
+      } catch(e) {}
+    }
+
+    // 2. Auto-save form draft on input
+    strategicForm.querySelectorAll('input, textarea, select').forEach(input => {
+      input.addEventListener('input', () => {
+        const currentData = JSON.parse(localStorage.getItem('apex_form_draft') || '{}');
+        if (input.id && input.id !== 'bot_check_field') {
+          currentData[input.id] = input.value;
+          localStorage.setItem('apex_form_draft', JSON.stringify(currentData));
+        }
+      });
+    });
+
+    // 3. WhatsApp Validation (Numbers and + only)
+    const whatsappInput = document.getElementById('whatsapp');
+    if (whatsappInput) {
+      whatsappInput.addEventListener('input', (e) => {
+        e.target.value = e.target.value.replace(/[^\d+]/g, '');
+      });
+    }
+
     strategicForm.addEventListener('submit', (e) => {
       e.preventDefault();
 
@@ -286,6 +317,9 @@ document.addEventListener('DOMContentLoaded', () => {
           let requests = JSON.parse(localStorage.getItem('apex_requests') || '[]');
           requests.unshift(requestData);
           localStorage.setItem('apex_requests', JSON.stringify(requests));
+          
+          // Clear draft on success
+          localStorage.removeItem('apex_form_draft');
 
           // Show Success State
           strategicForm.style.display = 'none';

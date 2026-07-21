@@ -782,9 +782,9 @@ input, textarea, select {
 .reality__body {
   font-size: var(--fs-lg);
   line-height: var(--lh-relaxed);
-  color: var(--text-on-dark-secondary);
+  color: var(--color-mist);
   margin-bottom: var(--space-section);
-  max-width: var(--max-width-text);
+  max-width: 600px;
   margin-inline: auto;
 }
 
@@ -976,8 +976,8 @@ input, textarea, select {
 
 .bento__card:hover {
   border-color: var(--color-navy-300);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg), 0 0 20px rgba(26, 70, 125, 0.08);
+  transform: translateY(-4px);
 }
 
 .bento__card-icon {
